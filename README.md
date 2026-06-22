@@ -14,4 +14,11 @@
     device list (để xem tên ổ mạng, ví dụ: wlan0)
     station wlan0 scan
     station wlan0 get-networks
-    station wlan0 connect <Tên_Wifi_Của_Bạn> 
+    station wlan0 connect <Tên_Wifi_Của_Bạn>
+**Cập nhật**
+  ```bash
+    pacman -Sy
+
+**Cài đặt các gói cần thiết**
+
+    
