@@ -23,7 +23,13 @@
 ```bash
 pacman -S archlinux-keyring
 pacman -S archinstall
-pacman -S os-prober
+```
+**Chọn nơi phân vùng, tạo efi (dual boot) và mount**
+```bash
+lsblk (Liệt kê thông tin chi tiết các ổ lưu trữ):
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+nvme0n1     259:0    0 476.9G  0 disk 
+├─nvme0n1p1 259:1    0 475.3G  0 part 
+└─nvme0n1p2 259:2    0   1.6G  0 part
 ```
 
-    
