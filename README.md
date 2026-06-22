@@ -18,7 +18,12 @@
 **Cập nhật**
   ```bash
     pacman -Sy
-
+  ```
 **Cài đặt các gói cần thiết**
+```bash
+pacman -S archlinux-keyring
+pacman -S archinstall
+pacman -S os-prober
+```
 
     
